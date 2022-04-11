@@ -45,14 +45,14 @@ string get_text() {
 
 void print_hunnidthou_times(string text) {
     for (int i = 0; i < 100000; ++i) {
-        outfile << text;
+        outfile << i << text << endl;
     }
     cout << "-- Printed " << text << " 100000 times. --" << endl;
 }
 
 void print_1mil_times(string text) {
-    for (int i = 0; i < 1000000; ++i) {
-        outfile << text;
+    for (int i = 0; i < 1000001; ++i) {
+        outfile << i << text << endl;
     }
     cout << "-- Printed " << text << " 1000000 times. --" << endl;
 }
@@ -65,28 +65,31 @@ int main() {
 
     // outfile << "```\n";
 
-    print_hunnidthou_times(text);
-    print_hunnidthou_times(text);
-    print_hunnidthou_times(text);
-    print_hunnidthou_times(text);
-    print_hunnidthou_times(text);
+    // print_hunnidthou_times(text);
+    // print_hunnidthou_times(text);
+    // print_hunnidthou_times(text);
+    // print_hunnidthou_times(text);
+    // print_hunnidthou_times(text);
 
-    print_hunnidthou_times(text);
-    print_hunnidthou_times(text);
-    print_hunnidthou_times(text);
-    print_hunnidthou_times(text);
-    print_hunnidthou_times(text);
+    // print_hunnidthou_times(text);
+    // print_hunnidthou_times(text);
+    // print_hunnidthou_times(text);
+    // print_hunnidthou_times(text);
+    // print_hunnidthou_times(text);
 
-    // print_1mil_times(text);
+    print_1mil_times(text);
     // print_1mil_times(text);
     // print_1mil_times(text);
     // print_1mil_times(text);
     // print_1mil_times(text);
 
-    outfile << "\n\n-----------------------------------------------------------------------------\n"
-            << " I just wrote some source code that prints the heart emoji 1 million times, \n"
-            << " The original file is actually 6 million, but it's also 36 mb and fb messenger\n"
-            << "   only allows for 26mb support in one message.\n\n"
+    outfile << "\n\n-------------------------------------------------------------------------------------------------\n"
+            << " - I just wrote some source code that prints the heart emoji 1 hundred thousand times, \n"
+            << "     but if i dont add a newline character, then even that is too big. This file is 1mil, bc\n"
+            << "     I separated each heart on its own line. I guess window likes that better.\n\n"
+            << " - The original file is actually 6 million, but it's also 36 mb and fb messenger\n"
+            << "     only allows for 26mb support in one message.\n"
+            << "  The 1 million heart file is def too big to convert to pdf.\n\n"
             << " - b ❤️";
 
     // outfile << "\n```";
