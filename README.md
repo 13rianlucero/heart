@@ -13,7 +13,6 @@
 >
 > - I havent setup clang++ on that laptop yet, so used g++ compiler and the cpp files still compile with no errors/warnings
 > - used c++17
-> - 
 > - ran the executables in vscode integrated terminal
 > - the output text file is empty, not a single character in it
 > - it would seem the executable is not able to write to the output txt file
