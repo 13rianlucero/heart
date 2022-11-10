@@ -13,7 +13,7 @@ std::ifstream infile;
 std::ofstream outfile;
 
 string input_filename = "heart_emoji.txt";
-string output_filename = "one_million.txt";
+string output_filename = "one_million_tester.txt";
 
 void open_IO_files() {
     infile.open(input_filename);
